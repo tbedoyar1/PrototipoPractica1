@@ -23,7 +23,7 @@ void Lista::crearLista() {
     }
 }
 
-// ================= NUEVAS FUNCIONES =================
+// funciones extras para le funcionamiento del codigo
 void Lista::cargarDesdeArchivo(string nombreArchivo) {
     ifstream archivo(nombreArchivo);
     if (!archivo.is_open()) {

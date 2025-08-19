@@ -9,7 +9,7 @@ int main() {
     bool estado = true;
     Lista lista;
 
-    // ✅ Cargar lista desde archivo al inicio
+    // Cargar lista desde archivo al inicio
     lista.cargarDesdeArchivo("hotel.txt");
 
     cout << "Lista de habitaciones cargada desde archivo:" << endl;
@@ -79,7 +79,7 @@ int main() {
                 break;
 
             case 0:
-                // ✅ Guardar en archivo antes de salir
+                //  Guardar en archivo antes de salir
                 lista.guardarEnArchivo("hotel.txt");
                 cout << "Datos guardados en hotel.txt. Saliendo..." << endl;
                 estado = false;
